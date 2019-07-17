@@ -9,23 +9,24 @@ The general framework of the proposed SDML method. The m modality-specific neura
 each modality) can be trained separately since they do not share any trainable parameters.
 ![MAN](framework.png)
 
+## Results
 <!--## Performance comparison in terms of mAP scores on the PKU XMedia dataset.
 ![Result](pascal_sentence_results.png)-->
-## Performance comparison in terms of mAP scores on the PKU XMedia dataset.
+### Performance comparison in terms of mAP scores on the PKU XMedia dataset.
 <img src="XMedia.png" width="900"/>
 
 <!--## Performance comparison in terms of mAP scores on the Wikipedia dataset.
 ![Result](Wikipedia.png)-->
-## Performance comparison in terms of mAP scores on the Wikipedia dataset.
+### Performance comparison in terms of mAP scores on the Wikipedia dataset.
 <img src="Wikipedia.png" width="500"/>
 
 <!--## Performance comparison in terms of mAP scores on the MS-COCO dataset.
 ![Result](MSCOCO.png)-->
-## Performance comparison in terms of mAP scores on the MS-COCO dataset.
+### Performance comparison in terms of mAP scores on the MS-COCO dataset.
 <img src="MSCOCO.png" width="500"/>
 
-## Citing MAN
-If you find MAN useful in your research, please consider citing:
+## Citing SDML
+If you find SDML useful in your research, please consider citing:
 ```
 @inproceedings{hu2019deep,
   title={Scalable deep multimodal learning for cross-modal retrieval},
