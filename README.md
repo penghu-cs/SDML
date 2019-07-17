@@ -11,17 +11,17 @@ each modality) can be trained separately since they do not share any trainable p
 
 <!--## Performance comparison in terms of mAP scores on the PKU XMedia dataset.
 ![Result](pascal_sentence_results.png)-->
-## Result
+## Performance comparison in terms of mAP scores on the PKU XMedia dataset.
 <img src="XMedia.png" width="900"/>
 
 <!--## Performance comparison in terms of mAP scores on the Wikipedia dataset.
 ![Result](Wikipedia.png)-->
-## Result
+## Performance comparison in terms of mAP scores on the Wikipedia dataset.
 <img src="Wikipedia.png" width="500"/>
 
 <!--## Performance comparison in terms of mAP scores on the MS-COCO dataset.
 ![Result](MSCOCO.png)-->
-## Result
+## Performance comparison in terms of mAP scores on the MS-COCO dataset.
 <img src="MSCOCO.png" width="500"/>
 
 ## Citing MAN
