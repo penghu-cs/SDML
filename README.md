@@ -27,10 +27,10 @@ each modality) can be trained separately since they do not share any trainable p
 ## Citing MAN
 If you find MAN useful in your research, please consider citing:
 ```
-@article{hu2019multimodal,
+@inproceedings{hu2019deep,
   title={Scalable deep multimodal learning for cross-modal retrieval},
   author={Hu, Peng and Zhen, Liangli and Peng, Dezhong and Liu, Pei},
-  journal={International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)},
+  booktitle={International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)},
   year={2019}
 }
 ```
