@@ -9,20 +9,19 @@ def load_deep_features(data_name):
         doc2vec = True
         req_rec, b_wv_matrix = False, False
     if data_name == 'wiki_doc2vec':
-        path = '../datasets/wiki_data/wiki_deep_doc2vec_data_corr_ae.h5py' # wiki_deep_doc2vec_data
+        path = './datasets/wiki_data/wiki_deep_doc2vec_data_corr_ae.h5py' # wiki_deep_doc2vec_data
         valid_len = 231
         MAP = -1
     elif data_name == 'nus_wide_doc2vec':
-        path = '../datasets/NUS-WIDE/nus_wide_deep_doc2vec_data_42941.h5py' # pascal_sentence_deep_doc2vec_data
+        path = './datasets/NUS-WIDE/nus_wide_deep_doc2vec_data_42941.h5py' # pascal_sentence_deep_doc2vec_data
         valid_len = 5000
         MAP = -1
     elif data_name == 'MSCOCO_doc2vec':
-        path = '../datasets/MSCOCO/MSCOCO_deep_doc2vec_data.h5py' #
+        path = './datasets/MSCOCO/MSCOCO_deep_doc2vec_data.h5py' #
         valid_len = 10000
         MAP = -1
     elif data_name == 'xmedia':
-        path = '../datasets/XMedia&Code/XMediaFeatures.mat'
-        # path = '../datasets/XMedia&Code/XMediaFeaturesSplit.mat'
+        path = './datasets/XMedia&Code/XMediaFeatures.mat'
         MAP = -1
         req_rec, b_wv_matrix = False, False
         all_data = sio.loadmat(path)
