@@ -70,9 +70,10 @@ class Solver(object):
             self.W = sio.loadmat(W_FileName)['W']
         except Exception as e:
             W = torch.Tensor(self.output_shape, self.output_shape)
-            W = torch.nn.init.orthogonal(W, gain=1)[:, 0: self.num_classes]
+            W = torch.nn.init.orthogonal(W, gain=1)
             self.W = self.to_data(W)
             sio.savemat(W_FileName, {'W': self.W})
+        self.W = self.W[:, 0: self.num_classes]
         self.runing_time = config.running_time
 
         if self.just_valid:
