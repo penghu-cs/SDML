@@ -57,6 +57,7 @@ class Solver(object):
 
         self.epochs = config.epochs
         self.sample_interval = config.sample_interval
+        self.cuda_list = config.cuda_list
 
         self.compute_all = config.compute_all
         self.just_valid = config.just_valid
@@ -196,7 +197,7 @@ class Solver(object):
         import random as rn
         rn.seed(seed)
         import os
-        os.environ['CUDA_VISIBLE_DEVICES'] = str(view_id % 2)
+        os.environ['CUDA_VISIBLE_DEVICES'] = str(self.cuda_list[view_id % len(self.cuda_list)])
         import torch
         torch.manual_seed(seed)
         torch.cuda.manual_seed(seed)
