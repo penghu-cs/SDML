@@ -13,6 +13,7 @@ if __name__ == '__main__':
     parser.add_argument('--just_valid', type=bool, default=False) # wiki, pascal, nus-wide, xmedianet
     parser.add_argument('--multiprocessing', type=bool, default=True)
     parser.add_argument('--running_time', type=bool, default=False)
+    parser.add_argument('--cuda_list', type=list, default=[0])
 
 
     parser.add_argument('--lr', type=list, default=[1e-4, 2e-4, 2e-4, 2e-4, 2e-4])
