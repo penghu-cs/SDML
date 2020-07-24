@@ -6,7 +6,6 @@ from torch.autograd import Variable
 import math
 
 class Dense_Net(nn.Module):
-    """Generator for transfering from svhn to mnist"""
 
     def __init__(self, input_dim=28*28, out_dim=20):
         super(Dense_Net, self).__init__()
